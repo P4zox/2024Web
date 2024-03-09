@@ -25,3 +25,5 @@ new_data.next=head
 ptr=new_data
 
 traverse(head)
+
+
