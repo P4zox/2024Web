@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head><title> my web </title></head>
+    <body>
+        <form action="/formprocess.php" method="post">
+            <p>帳號:<input type="text" maxlength="12" minlength="3" size="12" name="account" placeholder="請在此輸入帳號"></p>
+            <p>密碼:<input type="password" maxlength="12" minlength="3" size="12" name="password" placeholder="請在此輸入密碼"></p>
+
+            請選擇你喜歡的水果:(可複選) <br>
+            <input type="checkbox" name="like" value="apple">蘋果 <br>
+            <input type="checkbox" name="like" value="banana">香蕉 <br>
+            <input type="checkbox" name="like" value="pinapple">鳳梨 <br>
+            <input type="checkbox" name="like" value="strawberry">草莓 <br><br>
+
+            請選擇你喜歡的糖量:<br>
+            <input type="radio" name="sugar" value="many"> 全糖<br>
+            <input type="radio" name="sugar" value="medium"> 半糖<br>
+            <input type="radio" name="sugar" value="less"> 微糖<br><br>
+
+            請填寫以下基本資料:<br>
+            姓名:<input type="text" name="name"><br>
+            電話:<input type="tel" name="telephone"><br>
+            信箱:<input type="email" name="email"><br>
+            網站:<input type="url" name="wsebsite"><br><br>
+
+            請選擇你的生日:<input type="date" value="2024-03-10" min="1924-01-01" max="2024-03-10">
+            <input type="time" value="11:00" min="1:00" max="23:59"><br><br>
+
+            請上傳你的圖片檔案:<br>
+            <input type="file" accept="image/*" multiple><br><br>
+
+            <textarea name="mytext" row="6" cols="40" required>我是多行輸入框....</textarea><br><br>
+
+            <select name="pets">
+                <option value=""> 請選擇你最愛的寵物</option>
+                <option value="Dog"> Dog</option>
+                <option value="Cat"> Cat</option>
+                <option value="Hamster"> Hamster</option>
+                <option value="Parrot"> Parrot</option>
+                <option value="Spider" disabled> Spider</option>
+                <option value="Goldfish"> Goldfish</option>
+            </select><br><br>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+        
+    </body>
+</html>
