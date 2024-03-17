@@ -1,0 +1,36 @@
+h1 {
+    color: rgb(0, 255, 157);
+    font-size: 5em;
+}
+p {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+
+h3, #journal-p{
+    color: gray;
+    border: 0px;
+}
+
+#love-cat{
+    color: cyan;
+}
+
+.buy{
+    color: red;
+}
+
+#customer-r{
+    border-color: darkslateblue;
+    background-color: rgb(187,226,187);
+    color: #F75000;
+}
+
+body{
+    background-color: wheat;
+    background-image:url('../logo_tree.png') ;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
