@@ -1,0 +1,31 @@
+body{
+    font-size: 20px;
+}
+
+h5{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+p {
+    font-family: "ZCOOL KuaiLe", "Noto Sans T Chinese", cursive;
+    font-weight: lighter;
+}
+
+#container{
+    border-top-style: dashed;
+    border-top-width: thin;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-color: rgb(7,160,112);
+}
+
+#margin{
+    margin: 1px 50% 5px 15%;
+    border: solid #000;
+    border-width: 3px;
+    padding: 1px 50% 25px 15%;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: blue;
+}

@@ -35,7 +35,7 @@ head=new
 
 # 將新節點X插在串列中任意節點I之後
 x=Car("pink")
-ptr=head
+ptra=head
 while ptr.color != "red":
     ptr=ptr.next
 x.next= ptr.next

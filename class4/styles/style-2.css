@@ -2,6 +2,9 @@ body{
     background-color: rgb(197,231,211);
     background-image:url('../logo_tree.png') ;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    background-attachment: fixed;
 }
 
 #t{
