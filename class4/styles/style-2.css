@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(197,231,211);
+    background-image:url('../logo_tree.png') ;
+    background-repeat: no-repeat;
+}
+
+#t{
+    color: #003d1f;
+}
+
+.sub-t{
+    color: #01814A;
+}
+
+.button{
+    background-color: lightseagreen;
+    border-color: maroon;
+}
