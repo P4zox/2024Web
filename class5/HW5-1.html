@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="styles/style-2.css" rel="stylesheet" type="text/css" />
+        <title> my web </title>
+    </head>
+    <body>
+        <div id="title_border">
+            <h1 id="t"> 2024 前端春季班 課程心得</h1>
+        </div>
+        <div id="m1">
+            <form action="/formprocess.php" method="post">
+                <h3 class="sub-t"> *About You*</h3>
+                Name:<br><input type="text" name="name"><br>
+                Email:<br><input type="email" name="email"><br><br>
+                Birthday and time:<br><input type="date" value="2024-03-24" min="1995-01-30" max="2024-03-24">
+                <input type="time" value="6:00" min="00:00" max="23:59"><br><br><hr>
+            </form>
+        </div>
+        <div id="m2">
+            <form action="/formprocess.php" method="post">
+                <h3 class="sub-t"> *About Course*</h3>
+                <strong> 請勾選目前春季班聽不懂的課程內容: </strong><br>
+                <input type="checkbox" name="idk" value="Class1">Class1 <br>
+                <input type="checkbox" name="idk" value="Class2">Class2 <br>
+                <input type="checkbox" name="idk" value="Class3">Class3 <br><br>
+                <strong> 請問你最有興趣學習的技術:</strong><br>
+                <input type="radio" name="html" value="html"> HTML<br>
+                <input type="radio" name="css" value="css"> CSS<br>
+                <input type="radio" name="java" value="java"> JAVASCRIPT<br><br><hr>
+            </form>
+        </div>
+        <div id="m3">
+            <form action="/formprocess.php" method="post">
+                <h3 class="sub-t"> *Comments* </h3>
+                Comments:<br><textarea name="mytext" row="6" cols="40" required>你的留言</textarea><br><br>
+                <input type="submit" value="送出資料" class="button">  
+                <input type="reset" value="重填資料" class="button">
+            </form>
+        </div>
+
+    </body>
+</html>

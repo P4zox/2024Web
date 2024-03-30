@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(197,231,211);
+    background-image:url('../logo_tree.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    background-attachment: fixed;
+    font-family: fantasy;
+    font-weight: lighter;
+}
+
+#t{
+    color: #003d1f;
+}
+
+.sub-t{
+    color: #01814A;
+}
+
+.button{
+    background-color: lightseagreen;
+    border-color: maroon;
+}
+
+#title_border{
+    border-top-style: dashed;
+    border-top-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: rgb(7,160,112);
+}
+
+#m1{
+    margin: 3px 0% 3px 0%;
+    padding: 1px 0% 0px 0%;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: #01814A;
+}
+#m2{
+    margin: 3px 0% 3px 0%;
+    padding: 1px 0% 0px 0%;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: #01814A;
+}
+#m3{
+    margin: 3px 0% 3px 0%;
+    padding: 1px 0% 0px 0%;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: #01814A;
+}
