@@ -1,0 +1,24 @@
+.container{
+    height: 400px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(20, 100px);
+    grid-template-rows: repeat(4, 100px);
+    grid-template-areas: 
+        "A A A A C C"
+        "B B B B C C"
+        "B B B B C C"
+        "B B B B C C";
+}
+
+.box1{
+    grid-area: A;
+}
+
+.box2{
+    grid-area: B;
+}
+
+.box3{
+    grid-area: C;
+}

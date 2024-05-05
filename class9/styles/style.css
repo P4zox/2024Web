@@ -1,0 +1,19 @@
+.outer{
+    background: url('../logo_tree.png');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 250px;
+    border: 3px black solid;
+    background-position: center;
+    background-size: contain;
+
+}
+.outer1{
+    background: url('../logo_tree.png');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 250px;
+    border: 3px black solid;
+    background-position: center;
+    background-size: cover;
+}

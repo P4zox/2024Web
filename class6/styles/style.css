@@ -19,6 +19,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    align-items: center;
     width: 600px;
     height: 400px;
     flex-wrap: wrap;
@@ -30,17 +31,17 @@
     height: 50px;
 }
 .red{
-    background-color: red;
+    background-color: red; order: 3; flex-basis: 10%;
 }
 .yellow{
-    background-color: yellow;
+    background-color: yellow; align-self: flex-start; order: 1; flex-basis: 60%;
 }
 .blue{
-    background-color: blue;
+    background-color: blue; align-self: flex-end; order: 5; flex-basis: 10%;
 }
 .orange{
-    background-color: orange;
+    background-color: orange; order: 4; flex-basis: 10%;
 }
 .purple{
-    background-color: purple;
+    background-color: purple; order: 2; flex-basis: 10%;
 }
